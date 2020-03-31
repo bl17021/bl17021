@@ -1,0 +1,90 @@
+@charset "utf-8";
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+#container {
+    display: grid; /* グリッドレイアウト */
+    grid-template-rows: 30px 1fr;
+    grid-template-columns: 20% 20% 24% 1fr;
+}
+
+#itemA{
+    grid-row: 1 / 2;
+    grid-column: 1/4;
+    background-color: #3eb370;
+    border: 3px solid #007b43;
+    border-radius: 5px;
+}
+
+#itemB{
+    grid-row: 1/ 2;
+    grid-column: 4/5;
+    background-color: #3eb370;
+    border: 3px solid #007b43;
+    border-radius: 5px;
+}
+
+#itemC{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: #3eb370;
+    border: 3px solid #007b43;
+    border-radius: 5px;
+}
+
+#itemD{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: #3eb370;
+    border: 3px solid #007b43;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#itemE{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: #3eb370;
+    border: 3px solid #007b43;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+#itemF{
+    grid-row: 2/3;
+    grid-column: 4/5;
+    background-color: #3eb370;
+    border: 3px solid #007b43;
+    border-radius: 5px;
+}
+
+.space{
+    height: 48px;
+    width:10px;
+}
+
+h1{
+    font-size: 15px;
+    text-align: center;
+}
+#nameplate{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+#RealtimeClockArea2{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.gridh1{
+    color: #fff;
+    font-weight: bold;
+}
+.taskbars{
+    text-align: center;
+}

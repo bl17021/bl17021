@@ -1,0 +1,212 @@
+@charset "utf-8";
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.addform{
+    width: 120px;
+    padding: 1em 1em;
+  text-decoration: none;
+  background: #df0e4d;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 5px;
+}
+
+.addform:hover {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+    background-color: coral;
+  }
+
+.tasks{
+    display: inline-block;
+   float: left;
+   
+}
+
+.calendar{
+    display: inline-block;
+    margin-left: 200px;
+    
+}
+
+.task{
+    display:inline-block;
+    width: 120px;
+    padding: 0.5em 0.5em;
+    margin-top: 5px;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 5px;
+}
+
+.task:hover {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+    background-color: coral;
+  }
+
+/*.hiddentext{
+    visibility: hidden; 
+    width: 5px;
+}*/
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  table th,table td{
+    padding: 10px 10px;
+    text-align: center;
+  }
+  
+  table tr:nth-child(odd){
+    background-color: #eee
+  }
+  
+  .parent {
+    position: relative;
+    left: -25px;
+  }
+  .child {
+    position: absolute;
+    top: 15px;
+    left: -0.5px;
+    width:200px;
+  }
+
+  .parenta {
+    position: relative;
+    left: -25px;
+  }
+  
+  .childa {
+    position: absolute;
+    top: 15px;
+    left: -0.5px;
+    width:50px;
+  }
+
+  .date{
+      width: 100px;
+  }
+
+  .blank{
+      display: inline-block;
+      width: 20px;
+  }
+
+  .daysstyle{
+      display: inline-block;
+  }
+
+  .days:nth-child(1){
+     padding-left: 120px;
+  }
+
+  .toright{
+      left: 50px;
+  }
+
+  .taskname{
+    left: -50px;
+    float: left;
+  }
+
+  .clearfix{
+      clear: both;
+  }
+
+  .mainprogress{
+      left: -20px;
+      width: 200px;
+  }
+
+  .detaila{
+      width: 50px;
+  }
+
+  .none{
+      background-color: #fff;
+
+  }
+
+  .taskb{
+      margin-left: 50px;
+  }
+
+  .eachother{
+    display:inline-block;
+    width: 70px;
+    /*padding: 0.5em 0.5em;*/
+    margin-top: 5px;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 5px;
+  }
+
+  .eachother:hover {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+    background-color: coral;
+  }
+
+  .assessment{
+      display: inline;
+  }
+
+  .finish{
+    display:inline-block;
+    width: 140px;
+    padding: 0.5em 0.5em;
+    margin-top: 5px;
+  text-decoration: none;
+  background: #df0e4d;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 5px;
+  }
+
+  .finish:hover {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+    background-color: coral;
+  }
+
+  /*--------------詳細タスクページ----------------*/
+  .container {
+    background-color: #a5cfe7;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    flex-direction: column; /* 要素を縦に並べる */
+    justify-content: space-evenly; /* 要素を均等間隔に分散させる */
+  }
+  
+  .item {
+    box-sizing: border-box;
+    background-color: rgb(71, 160, 201);
+    /*padding: 3px;*/
+    
+  }
+  
+  .item_label {
+    white-space: nowrap;
+  }
+  
+  .item1 {
+    width: 30%;
+  }
